@@ -1,3 +1,4 @@
+import ToggleComp from "./hooks/customHook/components/ToggleComp"
 import UpdateUser from "./hooks/useContext/UpdateUser"
 import { UserContext, UserProvider } from "./hooks/useContext/UserContext"
 import UserProfile from "./hooks/useContext/UserProfile"
@@ -20,7 +21,8 @@ function App() {
         <UpdateUser />
       </UserProvider> */}
       {/* <Counter /> */}
-      <InputFocus />
+      {/* <InputFocus /> */}
+      <ToggleComp />
 
     </>
   )
