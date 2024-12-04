@@ -4,6 +4,7 @@ import UserProfile from "./hooks/useContext/UserProfile"
 import BasicEffect from "./hooks/useEffect/BasicEffect"
 import CounterEffect from "./hooks/useEffect/CounterEffect"
 import FetchDataEffect from "./hooks/useEffect/FetchDataEffect"
+import Counter from "./hooks/useReducer/Counter"
 
 function App() {
   
@@ -13,10 +14,13 @@ function App() {
       {/* <BasicEffect /> */}
       {/* <CounterEffect /> */}
       {/* <FetchDataEffect /> */}
-      <UserProvider>
+      {/* <UserProvider>
         <UserProfile/>
         <UpdateUser />
-      </UserProvider>
+      </UserProvider> */}
+
+        <Counter />
+
     </>
   )
 }
