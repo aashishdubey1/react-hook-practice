@@ -5,6 +5,7 @@ import BasicEffect from "./hooks/useEffect/BasicEffect"
 import CounterEffect from "./hooks/useEffect/CounterEffect"
 import FetchDataEffect from "./hooks/useEffect/FetchDataEffect"
 import Counter from "./hooks/useReducer/Counter"
+import InputFocus from "./hooks/useRef/InputFocus"
 
 function App() {
   
@@ -18,8 +19,8 @@ function App() {
         <UserProfile/>
         <UpdateUser />
       </UserProvider> */}
-
-        <Counter />
+      {/* <Counter /> */}
+      <InputFocus />
 
     </>
   )
